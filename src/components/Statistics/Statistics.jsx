@@ -2,7 +2,8 @@ import Notification from '../Notification';
 import css from './Statistics.module.css';
 
 const Statistic = props => {
-  const { good, neutral, bad, total, positiveFeedBack } = props.statistic;
+  console.log(props);
+  const { good, neutral, bad, total, positiveFeedBack } = props;
   return (
     <>
       <h2>Satatistics</h2>
